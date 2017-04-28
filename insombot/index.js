@@ -4,7 +4,7 @@ var env = require('../config.json'),
     Giphy = require('./Giphy.js'),
     Urban = require('./Urban.js');
 
-var InsomBot = function () {
+var MatBot = function () {
     this.keywords = env.keywords;
     this.Help = new Help;
     this.Imgur = new Imgur;
